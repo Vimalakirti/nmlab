@@ -10,20 +10,22 @@ import Rules from './pages/Rules'
 import Calendar from './pages/Calendar'
 import Projects from './pages/Projects'
 import Resources from './pages/Resources'
-import Admin from './pages/Admin'
+import Blockchain from './pages/Blockchain'
+
+import './css/app.css'
 
 class App extends Component {
     render() {
         return (
-            <div>
+            <div class="Site">
                 <Menu selectedMenuItem={this.props.selectedMenuItem}/>
-                <div class="container">
+                <div class="container Site-content">
                     <Route path="/" exact component={Home} />
                     <Route path="/rules" component={Rules} />
                     <Route path="/calendar" component={Calendar} />
                     <Route path="/projects" component={Projects} />
                     <Route path="/resources" component={Resources} />
-                    <Route path="/admin" component={Admin} />
+                    <Route path="/blockchain" component={Blockchain} />
                 </div>
                 <Footer />
             </div>

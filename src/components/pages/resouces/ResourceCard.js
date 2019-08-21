@@ -7,7 +7,7 @@ const ResourceCard = props => {
                 <img  src={props.img}/>
             </a>
             <div class="content">
-                <a class="header" href="#">{props.course}</a>
+                <a class="header" href={props.page}>{props.course}</a>
                 <div class="meta">
                 <a>{props.since}</a>
                 </div>

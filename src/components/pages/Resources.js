@@ -7,9 +7,9 @@ const Resources = () => {
     return (
       <div>
         <Divider description="實驗資源" icon="icon folder open outline"/>
-        <div class="two wide column ui cards container">    
+        <div class="two wide column stackable ui cards container">    
             <ResourceCard 
-              page="resources"
+              page="blockchain"
               img="images/bitcoin.jpg"
               course="區塊鏈實驗"
               since="Since Fall, 2018"

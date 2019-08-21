@@ -8,7 +8,7 @@ const Footer = () => {
                     <br/>
                     Copyright © NMLAB 2019<br/>
                     國立臺灣大學電信工程學研究所<br/>
-                    Designed by Chen Bing Jyue @ Aug, 2019<br/>
+                    Designed by Chen Bing Jyue @ Aug 2019<br/>
                     All Rights Reserved
                     <br/>
                     &nbsp;
