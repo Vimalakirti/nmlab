@@ -1,0 +1,1 @@
+{"version":3,"sources":["app.css"],"names":[],"mappings":"AAAA,MACI,YAAa,CACb,gBAAiB,CACjB,qBACJ,CAEA,cACI,QACJ","file":"main.dbbafe88.chunk.css","sourcesContent":[".Site {\n    display: flex;\n    min-height: 100vh;\n    flex-direction: column;\n}\n  \n.Site-content {\n    flex: 1;\n}"]}

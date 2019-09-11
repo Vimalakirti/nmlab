@@ -1,13 +1,14 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const ResourceCard = props => {
     return (
         <div class="ui card">
-            <a class="image" href={props.page}>
+            <Link class="image" to={props.page}>
                 <img  src={props.img}/>
-            </a>
+            </Link>
             <div class="content">
-                <a class="header" href={props.page}>{props.course}</a>
+                <Link class="header" to={props.page}>{props.course}</Link>
                 <div class="meta">
                 <a>{props.since}</a>
                 </div>

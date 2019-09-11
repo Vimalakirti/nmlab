@@ -1,17 +1,17 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 import Divider from './Divider'
 import ResourceCardSimple from './resouces/ResourceCardSimple'
 
 const Blockchain = () => {
     return (
         <div>
-            <div class="ui container">
-                <a href="resources">
+            <Link class="ui container" to="/resources">
+                <a>
                     <i class="angle left icon"></i>
                     相關資源
                 </a>
-            </div>
+            </Link>
             <Divider description="Basic Blockchain & Bitcoin" icon="yellow icon bitcoin"/>
             <div class="ui three doubling cards container">   
                 <ResourceCardSimple
