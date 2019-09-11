@@ -3,7 +3,7 @@ import React from 'react'
 const EachDay = props => {
     return (
         <div class="item">
-            <div class="ui">
+            <div class="ui tiny image">
                 <i class={props.icon}></i>
             </div>
             <div class="content">
