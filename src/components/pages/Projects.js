@@ -5,8 +5,9 @@ import Semester from './projects/Semester'
 import Tbody2018Fall  from './projects/Tbody2018Fall'
 import Tbody2019Spring from './projects/Tbody2019Spring'
 import Tbody2019Fall from './projects/Tbody2019Fall'
+import Tbody2020Spring from './projects/Tbody2020Spring'
+import Tbody2020Fall from './projects/Tbody2020Fall'
 
-// TODO: 新增歷屆final資料
 const Projects = () => {
     return (
         <div>
@@ -27,6 +28,8 @@ const Projects = () => {
             </div>
             <Divider description="歷屆 Final Projects" icon="file alternate outline icon"/>
             <Semester semester="It's your turn now!" tbody=""/>
+            <Semester semester="109-1 (2020 Fall)" tbody={<Tbody2020Fall/>}/>
+            <Semester semester="108-2 (2020 Spring)" tbody={<Tbody2020Spring/>}/>
             <Semester semester="108-1 (2019 Fall)" tbody={<Tbody2019Fall/>}/>
             <Semester semester="107-2 (2019 Spring)" tbody={<Tbody2019Spring/>}/>
             <Semester semester="107-1 (2018 Fall)" tbody={<Tbody2018Fall/>}/>
